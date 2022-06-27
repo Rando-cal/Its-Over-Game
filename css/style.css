@@ -115,7 +115,7 @@ margin-top: 40px;
     grid-column-start: 3;
     grid-column-end: 5;
     height: 50px;
-    align-self: end;
+    /* align-self:; */
     margin-bottom: 20px;
     -webkit-text-stroke: 1px black;
     padding: 0px;
@@ -148,18 +148,18 @@ margin-top: 40px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-#restart{
-    grid-column: 4/5;
-    width: 100px;
-    height: 70px;
-    border-radius: 12px;
-    font-family: 'Bungee', cursive;
-    align-self: end;
-    justify-self: right;
-}
-
 
 #instructions{
     padding: 20px;
     align-self: end;
+}
+
+#restartGameMessage{
+    color: white;
+    margin: 0px;
+    font-family: 'Bungee', cursive;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    display: none;
+
 }
